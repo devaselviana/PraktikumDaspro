@@ -13,6 +13,7 @@ public static void main(String[] args) {
     System.out.print("Masukkan angka2: ");
     angka2 = sc.nextDouble();
     System.out.print("Masukkan operator (+ - * :)");
+    operator = sc.next().charAt(0);
 
     switch (operator) {
         case '+':
@@ -28,8 +29,9 @@ public static void main(String[] args) {
             hasil = angka1/angka2;
             break;
     
+    }
     System.out.println(angka1 + " " + operator + " " + angka2 + "=" + hasil);
 
-    }
+    
 }    
 }
