@@ -14,7 +14,25 @@ public class PemilihanOperator08 {
     System.out.print("Masukkan operator (+ - * :)");
     operator = sc.next().charAt(0);
 
-    if (operator)
-
+    if (operator == '+'){
+      hasil = angka1 + angka2;
+      System.out.println(angka1 + " + " + angka2 + " = " + hasil);    
+    }
+    else if (operator == '-'){
+      hasil = angka1 - angka2;
+      System.out.println(angka1 + " - " + angka2 + " = " + hasil);
+    }
+    else if (operator == '*'){
+      hasil = angka1 * angka2;
+      System.out.println(angka1 + " * " + angka2 + " = " + hasil);
+    }
+    else if (operator == '/'){
+      hasil = angka1 / angka2;
+      System.out.println(angka1 + " / " + angka2 + " = " + hasil);
+    }
+    else{
+      System.out.println("Operator tidak sesuai");
+    }
+    //System.out.println(String.format("%s %c %s = %s", angka1,operator, angka2, hasil));
    } 
 }
