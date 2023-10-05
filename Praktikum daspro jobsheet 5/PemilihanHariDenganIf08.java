@@ -11,7 +11,7 @@ public class PemilihanHariDenganIf08 {
     dayNumber = input.nextInt();
 
     if (dayNumber <= 5){
-        dayType = "Weekend";
+        dayType = "Weekday";
     }
     else if (dayNumber > 5 && dayNumber <= 7){
         dayType = "Weekend";
