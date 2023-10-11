@@ -8,10 +8,10 @@ public class Kabisat08 {
     System.out.print("Masukkan Tahun Kabisat: ");
     tahun=input08.nextInt();
 
-     if ((tahun %4 == 0) && (tahun %100 !=0) || (tahun %4 == 0) && (tahun %100 !=0)) {
-        System.out.println("Tahun Kabisat");
+     if ((tahun %4 == 0) && (tahun %100 !=0) || (tahun %400) == 0) {
+        System.out.println("Its Leap Year");
      } else {
-        System.out.println("Bukan Tahun Kabisat");
+        System.out.println("Its Not Leap Year");
      }
  }   
 }
