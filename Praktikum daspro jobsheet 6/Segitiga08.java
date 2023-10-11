@@ -20,7 +20,6 @@ public class Segitiga08 {
             System.out.println("Segitiga tersebut adalah segitiga siku-siku");
     }else{
             System.out.println("Segitiga tersebut adalah bukan segitiga siku-siku");
-    }
     }else{
         System.out.println("Bukan Segitiga");
     }
