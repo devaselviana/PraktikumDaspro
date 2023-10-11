@@ -22,6 +22,8 @@ public class Segitigaa08 {
             System.out.println("Segitiga tersebut adalah segitiga sama sisi");
     } else if (sudut1 == sudut2 || sudut1 ==sudut3 || sudut2 == sudut3) {
             System.out.println("Segitiga tersebut adalah segitiga sama kaki");
+    } else if (sudut1 == sudut2 || sudut1 ==sudut3 || sudut2 == sudut3) {
+            System.out.println("Segitiga tersebut adalah segitiga sembarang");
     } else {
         System.out.println("Bukan segitiga");
     }
