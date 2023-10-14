@@ -12,7 +12,6 @@ public class Gaji08 {
         kategori = input08.nextLine();
         System.out.print("Masukkan Besarnya Penghasilan");
         penghasilan = input08.nextInt();
-
         if (kategori.equals("pekerja")) {
             if (penghasilan <= 2000000)
                 pajak = 0.1;
