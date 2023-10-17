@@ -23,8 +23,11 @@ public static void main(String[] args) {
             } else {
                 System.out.println("Sisa jatah cuti Anda tidak mencukupi");
                 break;
-            } while (jatahCuti > 0);
+            }
+            }else{
+                
+            }
         }
-    }
+        while (jatahCuti > 0); 
 }
 }

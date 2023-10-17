@@ -5,20 +5,20 @@ public class WhileGaji08 {
         Scanner input08 = new Scanner (System.in);
         
         int jumlahKaryawan,jumlahJamLembur;
-        double gajiLembur,totalGajiLembur;
+        double gajiLembur = 0, totalGajiLembur = 0;
         String jabatan;
 
         System.out.print("Masukkan jumlah karyawan: ");
         jumlahKaryawan = input08.nextInt();
 
-        int 1 = 0;
+        int i = 0;
         while (i < jumlahKaryawan) {
             System.out.println("Pilihan jabatan - Direktur, Mannajer, Karyawan");
             System.out.print("Masukkan jabatan karyawan ke-" + (i+1) + ": ");
             jabatan = input08.next();
             System.out.print("Masukkan jumlah jam lembur: ");
             jumlahJamLembur = input08.nextInt();
-            i++;
+            //i++;
 
             if (jabatan.equalsIgnoreCase("direktur")) {
                 continue;
@@ -28,11 +28,10 @@ public class WhileGaji08 {
             else if (jabatan.equalsIgnoreCase("karyawan")) {
                 gajiLembur = jumlahJamLembur * 75000;
             }
-            totalGajiLembur *= gajiLembur;
+            totalGajiLembur += gajiLembur;
             
             System.out.println("Total gaji Lembur: " + totalGajiLembur);
-            
-
         }
+        i++;
     }
 }

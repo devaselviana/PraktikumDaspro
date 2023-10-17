@@ -3,14 +3,14 @@ import  java.util.Scanner;
 public class Individu108 {
     public static void main(String[] args) {
         Scanner input8 = new Scanner(System.in);
-        String Lampu = "Hijau" "Kuning" "Merah";
+        String Lampu;
         String Rambu;
 
         System.out.println("Masukkan Rambu: ");
         Rambu=input8.nextLine();
         
 
-            switch (Lampu) {
+            switch (Rambu) {
             case "Hijau":
                 System.out.println("Lanjutkan Berkendara");
                 break;

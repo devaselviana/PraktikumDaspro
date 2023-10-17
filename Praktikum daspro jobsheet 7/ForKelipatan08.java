@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ForKelipatan08 {
     public static void main(String[] args) {
         Scanner input08 = new Scanner (System.in); 
-        int kelipatan,jumlah,counter;
+        int kelipatan,total = 0,counter = 0;
 
 
         System.out.print("Masukkan bilangan kelipatan (1-9): ");
