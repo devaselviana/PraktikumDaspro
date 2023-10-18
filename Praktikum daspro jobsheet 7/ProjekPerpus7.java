@@ -44,11 +44,10 @@ public class ProjekPerpus7 {
                 System.out.println("Sisa pengembalian Anda tidak mencukupi anda terlambat mengembalikan!");
             } else {
                 System.out.println("Terimakasih anda telah melakukan transaksi Pengembalian");
-                
-                
+                    break;
+                }
             }
-        }
-    
-    } while (lamaMeminjam > 0);
+        } while (lamaMeminjam > 0);
+    }    
 }
-}
+
