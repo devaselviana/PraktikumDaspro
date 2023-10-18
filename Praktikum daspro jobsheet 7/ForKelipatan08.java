@@ -14,10 +14,11 @@ public class ForKelipatan08 {
                 total += i;
                 ++counter;
                 mean = total/counter;
-               
-        System.out.printf("Pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter, bilangan, total);
-        System.out.printf("Rata-rata dari seluruh bilangan kelipatanadalah"+"" + mean);
-            }
+                System.out.println("--- Rentang bilangan 1 sampai 50 ---");
+                System.out.printf("Banyak bilangan kelipatan %d : %d \n", bilangan, counter );
+                System.out.printf("Total bilagan kelipatan %d : %d \n", bilangan, total);
+                System.out.printf("Rata-rata jumlah kelipatan %d : %d", bilangan,mean);
+                    }
         }
     }
 }
