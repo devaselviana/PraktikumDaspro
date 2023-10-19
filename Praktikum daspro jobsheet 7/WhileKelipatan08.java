@@ -17,9 +17,7 @@ public class WhileKelipatan08 {
             total += i;
             counter++;
             i++;
-
         }
-
        System.out.printf("Pada rentang 1-50 terdapat %d bilangan kelipatan %d dengan total %d", counter, bilangan, total );
     }
 }
