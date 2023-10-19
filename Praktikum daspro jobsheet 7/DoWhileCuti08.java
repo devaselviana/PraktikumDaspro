@@ -22,12 +22,14 @@ public static void main(String[] args) {
                 System.out.println("Sisa jatah cuti: " + jatahCuti);
             } else {
                 System.out.println("Sisa jatah cuti Anda tidak mencukupi");
+                continue;
+            }
+            }else if (konfirmasi.equalsIgnoreCase("t")){
+                System.out.println("Selamat tinggal!");
                 break;
             }
-            }else{
-                
-            }
-        }
+
+         }
         while (jatahCuti > 0); 
-}
-}
+        }
+    }
