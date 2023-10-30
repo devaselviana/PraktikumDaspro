@@ -47,6 +47,6 @@ public class ProjekPerpus7 {
                     break;
                 }
         }
-        } while (lamaMeminjam > 0);
+    } while(lamaMeminjam>);
     }    
 }
