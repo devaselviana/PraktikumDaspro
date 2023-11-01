@@ -4,8 +4,8 @@ public class LinearSearch08 {
     Scanner input08 = new Scanner (System.in);
 
     int[] arrayInt = {34, 18, 26, 48, 72, 20, 56, 63};
-    int key = 20;
-    int hasil =0;
+    int key;
+    int hasil = -1;
 
     System.out.print("Masukkan jumlah elemen array : ");
     int jumlahElemen = input08.nextInt();
@@ -23,10 +23,9 @@ public class LinearSearch08 {
             break;
         }
     }
-    if (hasil == 0){
+    if (hasil == -1){
         System.out.println("Key tidak ditemukan");
-    } else{
-        System.out.println("Key ada dalam array pada posisi indeks ke-"+hasil);
+    
     }  
 }   
 }
