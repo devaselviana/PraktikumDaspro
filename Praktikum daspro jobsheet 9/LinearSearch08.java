@@ -20,6 +20,7 @@ public class LinearSearch08 {
     for (int i = 0; i < arrayInt.length; i++) {
         if (arrayInt[i] == key) {
             hasil = i;
+            System.out.println("Key ada dalam array pada indeks ke- " +i);
             break;
         }
     }
