@@ -1,12 +1,12 @@
-import java.util.Scanner;
+import java.util.Scanner; // deklarasi scanner
 
-public class DoWhileCuti08 {
-public static void main(String[] args) {
-    Scanner input08 = new Scanner (System.in); 
+public class DoWhileCuti08 { // membuat kelas nama file
+public static void main(String[] args) { //branch
+    Scanner input08 = new Scanner (System.in); // deklarasi type data, variabel 
     int jatahCuti,jumlahHari;
     String konfirmasi;
 
-    System.out.print("Jatah cuti: ");
+    System.out.print("Jatah cuti: "); 
     jatahCuti = input08.nextInt();
 
     do {
