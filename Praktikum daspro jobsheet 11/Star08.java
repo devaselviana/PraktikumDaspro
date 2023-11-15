@@ -1,12 +1,12 @@
 import java.util.Scanner;
-public class Star {
+public class Star08 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        System.out.print("Masukkan nilai N = ");
-        int N = sc.nextInt();
+        System.out.print("Masukkan jumlah *: ");
+        int n = sc.nextInt();
 
-        for(int i=1; i<=N;i++){
+        for(int i=1; i<= n; i++) {
             System.out.print("*");
         }
     }
