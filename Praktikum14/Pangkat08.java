@@ -12,11 +12,14 @@ public class Pangkat08 {
 
     for (int i = 1; i <= y; i++) {
         hasil = hasil * x;
+        System.out.println(x + " pangkat " + i +" = " + hasil);
     }
     return hasil;
   }
   public static void main(String[] args) {
-    System.out.println(pangkat(6, 4));
-    System.out.println(pangkatIterative(6, 4));
+    int result = pangkatIterative(7, 5);
+    System.out.println("Hasil akhir: " + result);
+    //System.out.println(pangkat(7, 5));
+    //System.out.println(pangkatIterative(7, 5));
   }
 }
